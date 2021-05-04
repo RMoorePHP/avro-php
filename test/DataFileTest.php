@@ -68,7 +68,7 @@ class DataFileTest extends PHPUnit_Framework_TestCase
       mkdir(TEST_TEMP_DIR);
     $this->remove_data_files();
   }
-
+  
   protected function tearDown()
   {
     $this->remove_data_files();
