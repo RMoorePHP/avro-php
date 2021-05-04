@@ -338,6 +338,7 @@ class AvroDataIOReader
       yield $this->datum_reader->read($decoder);
       $this->block_count -= 1;
     }
+    return $data;
   }
 
   /**
