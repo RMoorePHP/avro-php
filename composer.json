@@ -8,9 +8,9 @@
     "require-dev": {
         "phpunit/phpunit": "^5.0"
     },
-	"replace": {
-		"flix-tech": "self.version"
-	},
+    "replace": {
+        "flix-tech/avro-php": "self.version"
+    },
     "suggest": {
         "ext-gmp": "Large integer support for 32-bit platforms.",
         "ext-zlib": "Zlib support for Deflate codec.",
